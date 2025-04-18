@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Virtual Financial Advisor</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: #fff;
+    }
+
+    .advisor-container {
+      background-color: #ffffff15;
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 400px;
+      width: 90%;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+      backdrop-filter: blur(10px);
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: 500;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+      margin-top: 5px;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px;
+      width: 100%;
+      border: none;
+      background-color: #00c9a7;
+      color: white;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #00a58f;
+    }
+
+    .advice {
+      margin-top: 20px;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 8px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="advisor-container">
+    <h1>Virtual Financial Advisor</h1>
+    <label for="goal">What's your financial goal?</label>
+    <select id="goal">
+      <option value="save">Save Money</option>
+      <option value="invest">Invest Wisely</option>
+      <option value="retire">Plan Retirement</option>
+      <option value="debt">Get Out of Debt</option>
+    </select>
+
+    <label for="income">Monthly Income ($)</label>
+    <input type="number" id="income" placeholder="e.g., 4000" />
+
+    <label for="expenses">Monthly Expenses ($)</label>
+    <input type="number" id="expenses" placeholder="e.g., 2500" />
+
+    <button onclick="getAdvice()">Get Advice</button>
+
+    <div class="advice" id="adviceBox"></div>
+  </div>
+
+  <script>
+    function getAdvice() {
+      const goal = document.getElementById("goal").value;
+      const income = parseFloat(document.getElementById("income").value);
+      const expenses = parseFloat(document.getElementById("expenses").value);
+      const adviceBox = document.getElementById("adviceBox");
+
+      if (isNaN(income) || isNaN(expenses)) {
+        adviceBox.innerHTML = "Please enter valid income and expenses.";
+        return;
+      }
+
+      const savings = income - expenses;
+      let advice = "";
+
+      switch(goal) {
+        case "save":
+          advice = `You save $${savings} per month. Try to allocate at least 20% of your income to savings. Build an emergency fund covering 3-6 months of expenses.`;
+          break;
+        case "invest":
+          advice = `With $${savings} surplus, consider diversifying into low-risk ETFs, index funds, or retirement accounts like Roth IRA or 401(k).`;
+          break;
+        case "retire":
+          advice = `Start or boost your retirement fund. Use tax-advantaged accounts and aim to save 15% of your income toward retirement.`;
+          break;
+        case "debt":
+          advice = `Use the snowball or avalanche method to tackle debt. With $${savings} monthly, prioritize high-interest debts first.`;
+          break;
+      }
+
+      adviceBox.innerHTML = advice;
+    }
+  </script>
+</body>
+</html>
