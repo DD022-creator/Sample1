@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>📅 Daily Program Reminder</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>📅 Daily Program Reminder</h1>
+
+    <div class="form">
+      <input type="time" id="reminderTime">
+      <input type="text" id="reminderText" placeholder="Enter program name...">
+      <button onclick="addReminder()">➕ Add</button>
+    </div>
+
+    <ul id="reminderList" class="reminder-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
