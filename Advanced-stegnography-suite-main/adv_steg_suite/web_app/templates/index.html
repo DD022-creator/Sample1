@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Steganography Suite</title>
+    <link rel="stylesheet" href="D:\adv_steg_suite\web_app\static\css\style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔒 Advanced Steganography Suite</h1>
+            <p>Hide secret messages in images with military-grade encryption</p>
+        </header>
+
+        <div class="tabs">
+            <button class="tab-btn active" onclick="openTab('encode')">🔼 Encode</button>
+            <button class="tab-btn" onclick="openTab('decode')">🔽 Decode</button>
+            <button class="tab-btn" onclick="openTab('analyze')">📊 Analyze</button>
+        </div>
+
+        <!-- Encode Tab -->
+        <div id="encode" class="tab-content active">
+            <div class="upload-area" id="encodeUpload">
+                <p>📁 Drag & drop carrier image or click to browse</p>
+                <input type="file" id="encodeImage" accept=".png,.bmp" hidden>
+                <div class="preview" id="encodePreview"></div>
+            </div>
+
+            <div class="form-group">
+                <label>Secret Message:</label>
+                <textarea id="secretMessage" placeholder="Enter your secret message here..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="password" id="encodePassword" placeholder="Enter encryption password">
+            </div>
+
+            <div class="advanced-options">
+                <h3>⚙️ Advanced Options</h3>
+                <div class="options-grid">
+                    <div>
+                        <label>LSB Bits:</label>
+                        <select id="lsbBits">
+                            <option value="1">1 Bit (Most Stealthy)</option>
+                            <option value="2">2 Bits</option>
+                            <option value="3">3 Bits</option>
+                            <option value="4">4 Bits (Most Capacity)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" id="useCompression" checked>
+                            Use Compression
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="capacity-info" id="capacityInfo">
+                Capacity: Please upload an image
+            </div>
+
+            <button class="btn-primary" onclick="encodeImage()">🚀 Encode Message</button>
+            
+            <div class="result" id="encodeResult">
+                <h3>Stego Image:</h3>
+                <div class="image-preview" id="stegoPreview"></div>
+                <div class="security-score" id="securityScore"></div>
+                <button class="btn-secondary" onclick="downloadStegoImage()">💾 Download Image</button>
+            </div>
+        </div>
+
+        <!-- Decode Tab -->
+        <div id="decode" class="tab-content">
+            <div class="upload-area" id="decodeUpload">
+                <p>📁 Drag & drop stego image or click to browse</p>
+                <input type="file" id="decodeImage" accept=".png,.bmp" hidden>
+                <div class="preview" id="decodePreview"></div>
+            </div>
+
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="password" id="decodePassword" placeholder="Enter decryption password">
+            </div>
+
+            <div class="form-group">
+                <label>LSB Bits Used:</label>
+                <select id="decodeLsbBits">
+                    <option value="1">1 Bit</option>
+                    <option value="2">2 Bits</option>
+                    <option value="3">3 Bits</option>
+                    <option value="4">4 Bits</option>
+                </select>
+            </div>
+
+            <button class="btn-primary" onclick="decodeImage()">🔍 Decode Message</button>
+            
+            <div class="result" id="decodeResult">
+                <h3>Decoded Message:</h3>
+                <div class="message-box" id="decodedMessage"></div>
+                <button class="btn-secondary" onclick="saveDecodedMessage()">💾 Save Message</button>
+            </div>
+        </div>
+
+        <!-- Analyze Tab -->
+        <div id="analyze" class="tab-content">
+            <div class="upload-area" id="analyzeUpload">
+                <p>📁 Drag & drop image to analyze</p>
+                <input type="file" id="analyzeImage" accept=".png,.bmp" hidden>
+                <div class="preview" id="analyzePreview"></div>
+            </div>
+
+            <button class="btn-primary" onclick="analyzeImage()">🔬 Analyze Image</button>
+            
+            <div class="result" id="analyzeResult">
+                <h3>Security Analysis:</h3>
+                <div class="analysis-report" id="analysisReport"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="D:\adv_steg_suite\web_app\static\css\js\script.js"></script>
+</body>
+</html>
