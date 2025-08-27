@@ -1,0 +1,17 @@
+# Import your steganography functions
+import os
+import sys
+
+# Add the parent directory to Python path
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
+sys.path.insert(0, parent_dir)
+
+try:
+    from crypto.aes_gcm import encrypt_bytes, decrypt_bytes
+    from stego.advanced_stego import encode_data_into_image, decode_data_from_image, get_image_capacity, analyze_stego_security
+    print("✅ Successfully imported steganography modules")
+except ImportError as e:
+    print(f"❌ Import error: {e}")
+    print("Current Python path:", sys.path)
+    raise
