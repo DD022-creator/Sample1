@@ -1,0 +1,28 @@
+# logs/sample_log.readme
+"""
+LOG FILES STRUCTURE:
+
+1. audio_analysis_YYYYMMDD_HHMMSS.log - Main application logs
+2. errors_YYYYMMDD_HHMMSS.log - Error-only logs
+3. processing_stats_YYYYMMDD_HHMMSS.json - Processing statistics
+4. log_rotation_summary.json - Log rotation history
+
+LOG LEVELS:
+- DEBUG: Detailed information for debugging
+- INFO: General operational information
+- WARNING: Potential issues that don't stop execution
+- ERROR: Errors that affect specific operations
+- CRITICAL: Severe errors that prevent continued operation
+
+USAGE:
+from logs.logging_config import setup_logging, get_logger
+from logs.log_manager import LogManager
+
+# Setup logging
+stats_file = setup_logging()
+logger = get_logger("Main")
+
+# Initialize log manager
+log_manager = LogManager()
+log_manager.initialize_processing_session(audio_files)
+"""

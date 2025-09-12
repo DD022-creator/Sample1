@@ -1,0 +1,31 @@
+{
+    "model_config": {
+        "name": "UnderwaterSoundClassifier",
+        "version": "1.0",
+        "description": "CNN model for underwater sound classification",
+        "input_sample_rate": 22050,
+        "segment_duration": 2.0,
+        "fft_size": 2048,
+        "hop_length": 512,
+        "n_mels": 128,
+        "classes": {
+            "0": "background",
+            "1": "vessel",
+            "2": "marine_animal",
+            "3": "natural_sound",
+            "4": "other_anthropogenic"
+        },
+        "confidence_threshold": 0.7,
+        "training_datasets": [
+            "DOSITS",
+            "MBARI",
+            "DeepShip",
+            "VTUAD"
+        ]
+    },
+    "preprocessing": {
+        "normalize": true,
+        "remove_dc_offset": true,
+        "preemphasis": 0.97
+    }
+}

@@ -1,0 +1,79 @@
+{
+  "session_id": "20250903_222230",
+  "start_time": "2025-09-03T22:22:30.114636",
+  "audio_files_to_process": 5,
+  "audio_files_processed": 4,
+  "audio_files_failed": 0,
+  "total_detections": 0,
+  "detections_by_class": {
+    "1": {
+      "name": "vessel",
+      "count": 0
+    },
+    "2": {
+      "name": "marine_animal",
+      "count": 0
+    },
+    "3": {
+      "name": "natural_sound",
+      "count": 0
+    },
+    "4": {
+      "name": "other_anthropogenic",
+      "count": 0
+    }
+  },
+  "processing_times": {
+    "total_processing_time": 5.334909000000001,
+    "average_time_per_file": 1.3337272500000001,
+    "file_processing_times": {
+      "sample_marine.wav": {
+        "start_time": "2025-09-03T22:22:43.712708",
+        "file_size": 1323044,
+        "duration": 30.0,
+        "status": "completed",
+        "end_time": "2025-09-03T22:22:46.121312",
+        "processing_time_seconds": 2.407825,
+        "detections": []
+      },
+      "sample_mixed.wav": {
+        "start_time": "2025-09-03T22:22:46.128302",
+        "file_size": 1323044,
+        "duration": 30.0,
+        "status": "completed",
+        "end_time": "2025-09-03T22:22:47.179195",
+        "processing_time_seconds": 1.050257,
+        "detections": []
+      },
+      "sample_natural.wav": {
+        "start_time": "2025-09-03T22:22:47.187892",
+        "file_size": 1323044,
+        "duration": 30.0,
+        "status": "completed",
+        "end_time": "2025-09-03T22:22:48.118146",
+        "processing_time_seconds": 0.929623,
+        "detections": []
+      },
+      "sample_vessel.wav": {
+        "start_time": "2025-09-03T22:22:48.125249",
+        "file_size": 1323044,
+        "duration": 30.0,
+        "status": "completed",
+        "end_time": "2025-09-03T22:22:49.073118",
+        "processing_time_seconds": 0.947204,
+        "detections": []
+      }
+    }
+  },
+  "confidence_statistics": {
+    "average_confidence": 0,
+    "min_confidence": 1.0,
+    "max_confidence": 0.0,
+    "confidence_distribution": []
+  },
+  "errors": [],
+  "warnings": [],
+  "end_time": "2025-09-03T22:22:49.075021",
+  "total_processing_time": 18.960385,
+  "success_rate": 80.0
+}

@@ -1,0 +1,903 @@
+{
+  "info": {
+    "description": "Underwater Sound Detection Results",
+    "version": "1.0",
+    "generated_on": "2025-09-12T15:21:27.114730",
+    "confidence_threshold": 0.3
+  },
+  "audios": [
+    {
+      "id": 1,
+      "file_name": "sample_.wav",
+      "file_path": "data/input\\sample_.wav",
+      "duration": 0
+    },
+    {
+      "id": 2,
+      "file_name": "sample_marine.wav",
+      "file_path": "data/input\\sample_marine.wav",
+      "duration": 30.0
+    },
+    {
+      "id": 3,
+      "file_name": "sample_mixed.wav",
+      "file_path": "data/input\\sample_mixed.wav",
+      "duration": 30.0
+    },
+    {
+      "id": 4,
+      "file_name": "sample_natural.wav",
+      "file_path": "data/input\\sample_natural.wav",
+      "duration": 30.0
+    },
+    {
+      "id": 5,
+      "file_name": "sample_vessel.wav",
+      "file_path": "data/input\\sample_vessel.wav",
+      "duration": 30.0
+    },
+    {
+      "id": 6,
+      "file_name": "strong_marine.wav",
+      "file_path": "data/input\\strong_marine.wav",
+      "duration": 10.0
+    },
+    {
+      "id": 7,
+      "file_name": "strong_natural.wav",
+      "file_path": "data/input\\strong_natural.wav",
+      "duration": 10.0
+    },
+    {
+      "id": 8,
+      "file_name": "strong_vessel.wav",
+      "file_path": "data/input\\strong_vessel.wav",
+      "duration": 10.0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "vessel"
+    },
+    {
+      "id": 2,
+      "name": "marine_animal"
+    },
+    {
+      "id": 3,
+      "name": "natural_sound"
+    },
+    {
+      "id": 4,
+      "name": "other_anthropogenic"
+    }
+  ],
+  "annotations": [
+    {
+      "start_time": 0,
+      "end_time": 2,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.7020426988601685,
+      "audio_id": 2,
+      "file_path": "data/input\\sample_marine.wav",
+      "file_name": "sample_marine.wav"
+    },
+    {
+      "start_time": 2,
+      "end_time": 4,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9937173128128052,
+      "audio_id": 2,
+      "file_path": "data/input\\sample_marine.wav",
+      "file_name": "sample_marine.wav"
+    },
+    {
+      "start_time": 4,
+      "end_time": 6,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9908331036567688,
+      "audio_id": 2,
+      "file_path": "data/input\\sample_marine.wav",
+      "file_name": "sample_marine.wav"
+    },
+    {
+      "start_time": 6,
+      "end_time": 8,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9778132438659668,
+      "audio_id": 2,
+      "file_path": "data/input\\sample_marine.wav",
+      "file_name": "sample_marine.wav"
+    },
+    {
+      "start_time": 8,
+      "end_time": 10,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.992358386516571,
+      "audio_id": 2,
+      "file_path": "data/input\\sample_marine.wav",
+      "file_name": "sample_marine.wav"
+    },
+    {
+      "start_time": 10,
+      "end_time": 12,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9923844337463379,
+      "audio_id": 2,
+      "file_path": "data/input\\sample_marine.wav",
+      "file_name": "sample_marine.wav"
+    },
+    {
+      "start_time": 12,
+      "end_time": 14,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9972583055496216,
+      "audio_id": 2,
+      "file_path": "data/input\\sample_marine.wav",
+      "file_name": "sample_marine.wav"
+    },
+    {
+      "start_time": 14,
+      "end_time": 16,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9981734752655029,
+      "audio_id": 2,
+      "file_path": "data/input\\sample_marine.wav",
+      "file_name": "sample_marine.wav"
+    },
+    {
+      "start_time": 16,
+      "end_time": 18,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9861351251602173,
+      "audio_id": 2,
+      "file_path": "data/input\\sample_marine.wav",
+      "file_name": "sample_marine.wav"
+    },
+    {
+      "start_time": 18,
+      "end_time": 20,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.995524525642395,
+      "audio_id": 2,
+      "file_path": "data/input\\sample_marine.wav",
+      "file_name": "sample_marine.wav"
+    },
+    {
+      "start_time": 20,
+      "end_time": 22,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.988778829574585,
+      "audio_id": 2,
+      "file_path": "data/input\\sample_marine.wav",
+      "file_name": "sample_marine.wav"
+    },
+    {
+      "start_time": 22,
+      "end_time": 24,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9891369342803955,
+      "audio_id": 2,
+      "file_path": "data/input\\sample_marine.wav",
+      "file_name": "sample_marine.wav"
+    },
+    {
+      "start_time": 24,
+      "end_time": 26,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9400476217269897,
+      "audio_id": 2,
+      "file_path": "data/input\\sample_marine.wav",
+      "file_name": "sample_marine.wav"
+    },
+    {
+      "start_time": 26,
+      "end_time": 28,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9571982622146606,
+      "audio_id": 2,
+      "file_path": "data/input\\sample_marine.wav",
+      "file_name": "sample_marine.wav"
+    },
+    {
+      "start_time": 28,
+      "end_time": 30,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.8223560452461243,
+      "audio_id": 2,
+      "file_path": "data/input\\sample_marine.wav",
+      "file_name": "sample_marine.wav"
+    },
+    {
+      "start_time": 0,
+      "end_time": 2,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9974328875541687,
+      "audio_id": 3,
+      "file_path": "data/input\\sample_mixed.wav",
+      "file_name": "sample_mixed.wav"
+    },
+    {
+      "start_time": 2,
+      "end_time": 4,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9990365505218506,
+      "audio_id": 3,
+      "file_path": "data/input\\sample_mixed.wav",
+      "file_name": "sample_mixed.wav"
+    },
+    {
+      "start_time": 4,
+      "end_time": 6,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9977571368217468,
+      "audio_id": 3,
+      "file_path": "data/input\\sample_mixed.wav",
+      "file_name": "sample_mixed.wav"
+    },
+    {
+      "start_time": 6,
+      "end_time": 8,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9969871640205383,
+      "audio_id": 3,
+      "file_path": "data/input\\sample_mixed.wav",
+      "file_name": "sample_mixed.wav"
+    },
+    {
+      "start_time": 8,
+      "end_time": 10,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9959611296653748,
+      "audio_id": 3,
+      "file_path": "data/input\\sample_mixed.wav",
+      "file_name": "sample_mixed.wav"
+    },
+    {
+      "start_time": 10,
+      "end_time": 12,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.8643501400947571,
+      "audio_id": 3,
+      "file_path": "data/input\\sample_mixed.wav",
+      "file_name": "sample_mixed.wav"
+    },
+    {
+      "start_time": 12,
+      "end_time": 14,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9961452484130859,
+      "audio_id": 3,
+      "file_path": "data/input\\sample_mixed.wav",
+      "file_name": "sample_mixed.wav"
+    },
+    {
+      "start_time": 14,
+      "end_time": 16,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9935212731361389,
+      "audio_id": 3,
+      "file_path": "data/input\\sample_mixed.wav",
+      "file_name": "sample_mixed.wav"
+    },
+    {
+      "start_time": 16,
+      "end_time": 18,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9783452153205872,
+      "audio_id": 3,
+      "file_path": "data/input\\sample_mixed.wav",
+      "file_name": "sample_mixed.wav"
+    },
+    {
+      "start_time": 18,
+      "end_time": 20,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9946309328079224,
+      "audio_id": 3,
+      "file_path": "data/input\\sample_mixed.wav",
+      "file_name": "sample_mixed.wav"
+    },
+    {
+      "start_time": 20,
+      "end_time": 22,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9854111671447754,
+      "audio_id": 3,
+      "file_path": "data/input\\sample_mixed.wav",
+      "file_name": "sample_mixed.wav"
+    },
+    {
+      "start_time": 22,
+      "end_time": 24,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.8887224197387695,
+      "audio_id": 3,
+      "file_path": "data/input\\sample_mixed.wav",
+      "file_name": "sample_mixed.wav"
+    },
+    {
+      "start_time": 24,
+      "end_time": 26,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9803251624107361,
+      "audio_id": 3,
+      "file_path": "data/input\\sample_mixed.wav",
+      "file_name": "sample_mixed.wav"
+    },
+    {
+      "start_time": 26,
+      "end_time": 28,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9815714955329895,
+      "audio_id": 3,
+      "file_path": "data/input\\sample_mixed.wav",
+      "file_name": "sample_mixed.wav"
+    },
+    {
+      "start_time": 28,
+      "end_time": 30,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9884556531906128,
+      "audio_id": 3,
+      "file_path": "data/input\\sample_mixed.wav",
+      "file_name": "sample_mixed.wav"
+    },
+    {
+      "start_time": 0,
+      "end_time": 2,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9968370199203491,
+      "audio_id": 4,
+      "file_path": "data/input\\sample_natural.wav",
+      "file_name": "sample_natural.wav"
+    },
+    {
+      "start_time": 2,
+      "end_time": 4,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9939841628074646,
+      "audio_id": 4,
+      "file_path": "data/input\\sample_natural.wav",
+      "file_name": "sample_natural.wav"
+    },
+    {
+      "start_time": 4,
+      "end_time": 6,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9768570065498352,
+      "audio_id": 4,
+      "file_path": "data/input\\sample_natural.wav",
+      "file_name": "sample_natural.wav"
+    },
+    {
+      "start_time": 6,
+      "end_time": 8,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9647975564002991,
+      "audio_id": 4,
+      "file_path": "data/input\\sample_natural.wav",
+      "file_name": "sample_natural.wav"
+    },
+    {
+      "start_time": 8,
+      "end_time": 10,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.98609459400177,
+      "audio_id": 4,
+      "file_path": "data/input\\sample_natural.wav",
+      "file_name": "sample_natural.wav"
+    },
+    {
+      "start_time": 10,
+      "end_time": 12,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9978775978088379,
+      "audio_id": 4,
+      "file_path": "data/input\\sample_natural.wav",
+      "file_name": "sample_natural.wav"
+    },
+    {
+      "start_time": 12,
+      "end_time": 14,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.990881085395813,
+      "audio_id": 4,
+      "file_path": "data/input\\sample_natural.wav",
+      "file_name": "sample_natural.wav"
+    },
+    {
+      "start_time": 14,
+      "end_time": 16,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9685325026512146,
+      "audio_id": 4,
+      "file_path": "data/input\\sample_natural.wav",
+      "file_name": "sample_natural.wav"
+    },
+    {
+      "start_time": 16,
+      "end_time": 18,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9575970768928528,
+      "audio_id": 4,
+      "file_path": "data/input\\sample_natural.wav",
+      "file_name": "sample_natural.wav"
+    },
+    {
+      "start_time": 18,
+      "end_time": 20,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9939311742782593,
+      "audio_id": 4,
+      "file_path": "data/input\\sample_natural.wav",
+      "file_name": "sample_natural.wav"
+    },
+    {
+      "start_time": 20,
+      "end_time": 22,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9973945617675781,
+      "audio_id": 4,
+      "file_path": "data/input\\sample_natural.wav",
+      "file_name": "sample_natural.wav"
+    },
+    {
+      "start_time": 22,
+      "end_time": 24,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9913743138313293,
+      "audio_id": 4,
+      "file_path": "data/input\\sample_natural.wav",
+      "file_name": "sample_natural.wav"
+    },
+    {
+      "start_time": 24,
+      "end_time": 26,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9730271100997925,
+      "audio_id": 4,
+      "file_path": "data/input\\sample_natural.wav",
+      "file_name": "sample_natural.wav"
+    },
+    {
+      "start_time": 26,
+      "end_time": 28,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9883216023445129,
+      "audio_id": 4,
+      "file_path": "data/input\\sample_natural.wav",
+      "file_name": "sample_natural.wav"
+    },
+    {
+      "start_time": 28,
+      "end_time": 30,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9817237854003906,
+      "audio_id": 4,
+      "file_path": "data/input\\sample_natural.wav",
+      "file_name": "sample_natural.wav"
+    },
+    {
+      "start_time": 0,
+      "end_time": 2,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9992771744728088,
+      "audio_id": 5,
+      "file_path": "data/input\\sample_vessel.wav",
+      "file_name": "sample_vessel.wav"
+    },
+    {
+      "start_time": 2,
+      "end_time": 4,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9984748959541321,
+      "audio_id": 5,
+      "file_path": "data/input\\sample_vessel.wav",
+      "file_name": "sample_vessel.wav"
+    },
+    {
+      "start_time": 4,
+      "end_time": 6,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9990389347076416,
+      "audio_id": 5,
+      "file_path": "data/input\\sample_vessel.wav",
+      "file_name": "sample_vessel.wav"
+    },
+    {
+      "start_time": 6,
+      "end_time": 8,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9987149238586426,
+      "audio_id": 5,
+      "file_path": "data/input\\sample_vessel.wav",
+      "file_name": "sample_vessel.wav"
+    },
+    {
+      "start_time": 8,
+      "end_time": 10,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9988998174667358,
+      "audio_id": 5,
+      "file_path": "data/input\\sample_vessel.wav",
+      "file_name": "sample_vessel.wav"
+    },
+    {
+      "start_time": 10,
+      "end_time": 12,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9984350800514221,
+      "audio_id": 5,
+      "file_path": "data/input\\sample_vessel.wav",
+      "file_name": "sample_vessel.wav"
+    },
+    {
+      "start_time": 12,
+      "end_time": 14,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9991365075111389,
+      "audio_id": 5,
+      "file_path": "data/input\\sample_vessel.wav",
+      "file_name": "sample_vessel.wav"
+    },
+    {
+      "start_time": 14,
+      "end_time": 16,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9983317255973816,
+      "audio_id": 5,
+      "file_path": "data/input\\sample_vessel.wav",
+      "file_name": "sample_vessel.wav"
+    },
+    {
+      "start_time": 16,
+      "end_time": 18,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.998190701007843,
+      "audio_id": 5,
+      "file_path": "data/input\\sample_vessel.wav",
+      "file_name": "sample_vessel.wav"
+    },
+    {
+      "start_time": 18,
+      "end_time": 20,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9989988207817078,
+      "audio_id": 5,
+      "file_path": "data/input\\sample_vessel.wav",
+      "file_name": "sample_vessel.wav"
+    },
+    {
+      "start_time": 20,
+      "end_time": 22,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9995417594909668,
+      "audio_id": 5,
+      "file_path": "data/input\\sample_vessel.wav",
+      "file_name": "sample_vessel.wav"
+    },
+    {
+      "start_time": 22,
+      "end_time": 24,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.998521625995636,
+      "audio_id": 5,
+      "file_path": "data/input\\sample_vessel.wav",
+      "file_name": "sample_vessel.wav"
+    },
+    {
+      "start_time": 24,
+      "end_time": 26,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9991790652275085,
+      "audio_id": 5,
+      "file_path": "data/input\\sample_vessel.wav",
+      "file_name": "sample_vessel.wav"
+    },
+    {
+      "start_time": 26,
+      "end_time": 28,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9994699358940125,
+      "audio_id": 5,
+      "file_path": "data/input\\sample_vessel.wav",
+      "file_name": "sample_vessel.wav"
+    },
+    {
+      "start_time": 28,
+      "end_time": 30,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9979985356330872,
+      "audio_id": 5,
+      "file_path": "data/input\\sample_vessel.wav",
+      "file_name": "sample_vessel.wav"
+    },
+    {
+      "start_time": 0,
+      "end_time": 2,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9938648343086243,
+      "audio_id": 6,
+      "file_path": "data/input\\strong_marine.wav",
+      "file_name": "strong_marine.wav"
+    },
+    {
+      "start_time": 2,
+      "end_time": 4,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9818383455276489,
+      "audio_id": 6,
+      "file_path": "data/input\\strong_marine.wav",
+      "file_name": "strong_marine.wav"
+    },
+    {
+      "start_time": 4,
+      "end_time": 6,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9763184189796448,
+      "audio_id": 6,
+      "file_path": "data/input\\strong_marine.wav",
+      "file_name": "strong_marine.wav"
+    },
+    {
+      "start_time": 6,
+      "end_time": 8,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9860012531280518,
+      "audio_id": 6,
+      "file_path": "data/input\\strong_marine.wav",
+      "file_name": "strong_marine.wav"
+    },
+    {
+      "start_time": 8,
+      "end_time": 10,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9898819327354431,
+      "audio_id": 6,
+      "file_path": "data/input\\strong_marine.wav",
+      "file_name": "strong_marine.wav"
+    },
+    {
+      "start_time": 0,
+      "end_time": 2,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9419103264808655,
+      "audio_id": 7,
+      "file_path": "data/input\\strong_natural.wav",
+      "file_name": "strong_natural.wav"
+    },
+    {
+      "start_time": 2,
+      "end_time": 4,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9504069089889526,
+      "audio_id": 7,
+      "file_path": "data/input\\strong_natural.wav",
+      "file_name": "strong_natural.wav"
+    },
+    {
+      "start_time": 4,
+      "end_time": 6,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9515625238418579,
+      "audio_id": 7,
+      "file_path": "data/input\\strong_natural.wav",
+      "file_name": "strong_natural.wav"
+    },
+    {
+      "start_time": 6,
+      "end_time": 8,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9494360089302063,
+      "audio_id": 7,
+      "file_path": "data/input\\strong_natural.wav",
+      "file_name": "strong_natural.wav"
+    },
+    {
+      "start_time": 8,
+      "end_time": 10,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9365448355674744,
+      "audio_id": 7,
+      "file_path": "data/input\\strong_natural.wav",
+      "file_name": "strong_natural.wav"
+    },
+    {
+      "start_time": 0,
+      "end_time": 2,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9820924997329712,
+      "audio_id": 8,
+      "file_path": "data/input\\strong_vessel.wav",
+      "file_name": "strong_vessel.wav"
+    },
+    {
+      "start_time": 2,
+      "end_time": 4,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.980998694896698,
+      "audio_id": 8,
+      "file_path": "data/input\\strong_vessel.wav",
+      "file_name": "strong_vessel.wav"
+    },
+    {
+      "start_time": 4,
+      "end_time": 6,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9898763298988342,
+      "audio_id": 8,
+      "file_path": "data/input\\strong_vessel.wav",
+      "file_name": "strong_vessel.wav"
+    },
+    {
+      "start_time": 6,
+      "end_time": 8,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9910179376602173,
+      "audio_id": 8,
+      "file_path": "data/input\\strong_vessel.wav",
+      "file_name": "strong_vessel.wav"
+    },
+    {
+      "start_time": 8,
+      "end_time": 10,
+      "duration": 2,
+      "category_id": 4,
+      "category_name": "Other Anthropogenic",
+      "score": 0.9951305389404297,
+      "audio_id": 8,
+      "file_path": "data/input\\strong_vessel.wav",
+      "file_name": "strong_vessel.wav"
+    }
+  ]
+}

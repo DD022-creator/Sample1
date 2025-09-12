@@ -1,0 +1,10 @@
+2025-09-03 22:39:25,724 - LogManager - INFO - Processing session initialized: 20250903_223925
+2025-09-03 22:39:25,725 - Main - INFO - Processing 5 audio files with 50.0% overlap...
+2025-09-03 22:39:25,725 - Main - INFO - Confidence threshold: 0.8
+2025-09-03 22:39:28,883 - LogManager - INFO - Processed sample_marine.wav: 0 detections in 1.95s
+2025-09-03 22:39:30,572 - LogManager - INFO - Processed sample_mixed.wav: 0 detections in 1.68s
+2025-09-03 22:39:32,325 - LogManager - INFO - Processed sample_natural.wav: 0 detections in 1.74s
+2025-09-03 22:39:34,049 - LogManager - INFO - Processed sample_vessel.wav: 0 detections in 1.71s
+2025-09-03 22:39:34,051 - LogManager - INFO - Processing session completed: Files processed: 4/5 (80.0%), Detections: 0, Time: 8.33s
+2025-09-03 22:39:34,055 - Main - INFO - Analysis complete. Results saved to data/output/results.json
+2025-09-03 22:39:34,056 - Main - INFO - Session summary: Files processed: 4/5 (80.0%), Detections: 0, Time: 8.33s

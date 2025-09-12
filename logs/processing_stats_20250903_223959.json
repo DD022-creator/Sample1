@@ -1,0 +1,120 @@
+{
+  "session_id": "20250903_223959",
+  "start_time": "2025-09-03T22:39:59.323527",
+  "audio_files_to_process": 5,
+  "audio_files_processed": 4,
+  "audio_files_failed": 0,
+  "total_detections": 4,
+  "detections_by_class": {
+    "1": {
+      "name": "vessel",
+      "count": 0
+    },
+    "2": {
+      "name": "marine_animal",
+      "count": 4
+    },
+    "3": {
+      "name": "natural_sound",
+      "count": 0
+    },
+    "4": {
+      "name": "other_anthropogenic",
+      "count": 0
+    }
+  },
+  "processing_times": {
+    "total_processing_time": 7.181649684906006,
+    "average_time_per_file": 1.7954124212265015,
+    "file_processing_times": {
+      "sample_marine.wav": {
+        "start_time": "2025-09-03T22:40:00.565228",
+        "file_size": 1323044,
+        "duration": 30.0,
+        "status": "completed",
+        "end_time": "2025-09-03T22:40:02.496326",
+        "processing_time_seconds": 1.930330514907837,
+        "detections": [
+          {
+            "start_time": 4,
+            "end_time": 24,
+            "duration": 20,
+            "category_id": 2,
+            "score": 0.8326107859611511,
+            "segment_index": 0
+          }
+        ]
+      },
+      "sample_mixed.wav": {
+        "start_time": "2025-09-03T22:40:02.506849",
+        "file_size": 1323044,
+        "duration": 30.0,
+        "status": "completed",
+        "end_time": "2025-09-03T22:40:04.221725",
+        "processing_time_seconds": 1.7138657569885254,
+        "detections": [
+          {
+            "start_time": 0,
+            "end_time": 30,
+            "duration": 30,
+            "category_id": 2,
+            "score": 0.8452487587928772,
+            "segment_index": 0
+          }
+        ]
+      },
+      "sample_natural.wav": {
+        "start_time": "2025-09-03T22:40:04.230712",
+        "file_size": 1323044,
+        "duration": 30.0,
+        "status": "completed",
+        "end_time": "2025-09-03T22:40:06.001951",
+        "processing_time_seconds": 1.7699859142303467,
+        "detections": [
+          {
+            "start_time": 0,
+            "end_time": 30,
+            "duration": 30,
+            "category_id": 2,
+            "score": 0.884722113609314,
+            "segment_index": 0
+          }
+        ]
+      },
+      "sample_vessel.wav": {
+        "start_time": "2025-09-03T22:40:06.018700",
+        "file_size": 1323044,
+        "duration": 30.0,
+        "status": "completed",
+        "end_time": "2025-09-03T22:40:07.786829",
+        "processing_time_seconds": 1.7674674987792969,
+        "detections": [
+          {
+            "start_time": 0,
+            "end_time": 30,
+            "duration": 30,
+            "category_id": 2,
+            "score": 0.8719149827957153,
+            "segment_index": 0
+          }
+        ]
+      }
+    }
+  },
+  "confidence_statistics": {
+    "average_confidence": 0.8586241602897644,
+    "min_confidence": 0.8326107859611511,
+    "max_confidence": 0.884722113609314,
+    "confidence_distribution": [
+      0.8326107859611511,
+      0.8452487587928772,
+      0.884722113609314,
+      0.8719149827957153
+    ]
+  },
+  "errors": [],
+  "warnings": [],
+  "end_time": "2025-09-03T22:40:07.789004",
+  "total_processing_time": 8.465477,
+  "success_rate": 80.0
+}

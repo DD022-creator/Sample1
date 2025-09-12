@@ -1,0 +1,79 @@
+{
+  "session_id": "20250903_223856",
+  "start_time": "2025-09-03T22:38:56.630393",
+  "audio_files_to_process": 5,
+  "audio_files_processed": 4,
+  "audio_files_failed": 0,
+  "total_detections": 0,
+  "detections_by_class": {
+    "1": {
+      "name": "vessel",
+      "count": 0
+    },
+    "2": {
+      "name": "marine_animal",
+      "count": 0
+    },
+    "3": {
+      "name": "natural_sound",
+      "count": 0
+    },
+    "4": {
+      "name": "other_anthropogenic",
+      "count": 0
+    }
+  },
+  "processing_times": {
+    "total_processing_time": 6.827125310897827,
+    "average_time_per_file": 1.7067813277244568,
+    "file_processing_times": {
+      "sample_marine.wav": {
+        "start_time": "2025-09-03T22:38:58.000899",
+        "file_size": 1323044,
+        "duration": 30.0,
+        "status": "completed",
+        "end_time": "2025-09-03T22:38:59.894254",
+        "processing_time_seconds": 1.8925931453704834,
+        "detections": []
+      },
+      "sample_mixed.wav": {
+        "start_time": "2025-09-03T22:38:59.905929",
+        "file_size": 1323044,
+        "duration": 30.0,
+        "status": "completed",
+        "end_time": "2025-09-03T22:39:01.517844",
+        "processing_time_seconds": 1.611337423324585,
+        "detections": []
+      },
+      "sample_natural.wav": {
+        "start_time": "2025-09-03T22:39:01.526868",
+        "file_size": 1323044,
+        "duration": 30.0,
+        "status": "completed",
+        "end_time": "2025-09-03T22:39:03.141541",
+        "processing_time_seconds": 1.6140460968017578,
+        "detections": []
+      },
+      "sample_vessel.wav": {
+        "start_time": "2025-09-03T22:39:03.150705",
+        "file_size": 1323044,
+        "duration": 30.0,
+        "status": "completed",
+        "end_time": "2025-09-03T22:39:04.860518",
+        "processing_time_seconds": 1.709148645401001,
+        "detections": []
+      }
+    }
+  },
+  "confidence_statistics": {
+    "average_confidence": 0,
+    "min_confidence": 1.0,
+    "max_confidence": 0.0,
+    "confidence_distribution": []
+  },
+  "errors": [],
+  "warnings": [],
+  "end_time": "2025-09-03T22:39:04.864047",
+  "total_processing_time": 8.233654,
+  "success_rate": 80.0
+}

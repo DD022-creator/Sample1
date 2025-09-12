@@ -1,0 +1,11 @@
+2025-09-03 22:55:52,518 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-03 22:55:52,522 - LogManager - INFO - Processing session initialized: 20250903_225552
+2025-09-03 22:55:52,522 - Main - INFO - Processing 5 audio files with 50.0% overlap...
+2025-09-03 22:55:52,522 - Main - INFO - Confidence threshold: 0.7
+2025-09-03 22:55:55,646 - LogManager - INFO - Processed sample_marine.wav: 1 detections in 1.91s
+2025-09-03 22:55:57,299 - LogManager - INFO - Processed sample_mixed.wav: 1 detections in 1.64s
+2025-09-03 22:55:58,894 - LogManager - INFO - Processed sample_natural.wav: 1 detections in 1.58s
+2025-09-03 22:56:00,519 - LogManager - INFO - Processed sample_vessel.wav: 1 detections in 1.61s
+2025-09-03 22:56:00,521 - LogManager - INFO - Processing session completed: Files processed: 4/5 (80.0%), Detections: 4, Time: 8.00s
+2025-09-03 22:56:00,521 - Main - INFO - Analysis complete. Results saved to data/output/results.json
+2025-09-03 22:56:00,521 - Main - INFO - Session summary: Files processed: 4/5 (80.0%), Detections: 4, Time: 8.00s
